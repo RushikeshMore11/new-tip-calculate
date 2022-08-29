@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculate</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" type="image/x-icon" href="https://png.pngtree.com/png-vector/20190811/ourmid/pngtree-beautiful-calculator-line-black-icon-png-image_1659202.jpg">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1 id="head">Tip Calculator</h1>
+            
+        </div>
+            <div class="main">
+            <div class="input-output">
+            <div class="input">
+                <input type="number" id="bill" required placeholder="Enter Total Bill"><br>
+                <input type="number" id="tip" required placeholder="Enter Tip %"><br>
+                <input type="number" id="person" required placeholder="Enter no. of Persons">
+            </div>
+            <div class="output">
+                <input type="text" id="tipPerPerson" disabled placeholder="Tip Per Person" title="Tip Per Person"><br>
+                <input type="text" id="totalBillPerPerson" disabled placeholder="Total Bill Per Person" title="Total Bill Per Person">
+            </div>
+        </div>
+        <div class="main-output">
+            <center><button type="submit" id="btn">Calculate Tip</button></center>
+            <center>
+                <input type="text" id="TotalOutput" disabled placeholder="Total Bill Paid">
+            </center>
+        </div>           
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
