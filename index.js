@@ -24,11 +24,11 @@ function myfun(){
     
     let perPerson=(bill*(tip/100))/person;
     perPerson = parseInt(perPerson);
-    document.getElementById("tipPerPerson").value="Tip per Person "+perPerson+" Rs";
+    document.getElementById("tipPerPerson").value="Tip/Head "+perPerson+" Rs";
     
     let billPerPerson=totalBill/person;
      billPerPerson = parseInt(billPerPerson);
-    document.getElementById("totalBillPerPerson").value="Bill Per Head "+billPerPerson+" Rs";
+    document.getElementById("totalBillPerPerson").value="Bill/Head "+billPerPerson+" Rs";
     
     
     document.getElementById("TotalOutput").value="TotalBill "+totalBill+" Rs";
